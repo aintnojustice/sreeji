@@ -68,10 +68,10 @@ class App extends Component {
    render() {
      const menuItem = [
        {href:"introduction",name:"Introduction"},
-       {href:"product",name:"Product"},
-       {href:"about_us",name:"About Us"},
-       {href:"contact",name:"Contact"},
-       {href:"our_client",name:"Our Client"},
+       {href:"product",name:"Products"},
+       {href:"about_us",name:"About Sreeji"},
+       {href:"contact",name:"Contact Us"},
+       {href:"our_client",name:"Our Clients"},
      ];
       return (
          <div>

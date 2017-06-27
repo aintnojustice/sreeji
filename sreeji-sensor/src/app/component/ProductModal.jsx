@@ -33,11 +33,11 @@ export default class ProductModal extends Component {
   }
 
   onModalOpen=(e)=>{
-    e.classList = "animated rollIn modal";
+    e.classList = "animated zoomIn modal";
   }
 
   onModalClose=(e)=>{
-    e.classList = "animated rollOut modal";
+    e.classList = "animated zoomOut modal";
   }
 
   render(){

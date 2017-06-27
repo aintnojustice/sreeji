@@ -30,9 +30,9 @@ export default class Content extends Component {
 
   render(){
     return (
-      <div>
-        <div id="wrap">
-          <div id="introduction" className="main-div">
+      <div className="max-height">
+        <div id="wrap" className="max-height">
+          <div id="introduction" className="main-div max-height">
             <div className="center-box">
               <div className="centered">
                 <h1 className="brand-text">Shreeji Sensors</h1>
