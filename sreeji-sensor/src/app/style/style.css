@@ -178,7 +178,7 @@ p {
 }
 
 #introduction {
-    background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(./images/photo1.jpg);
+    background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(./images/photo11.jpg);
 }
 
 #product {
@@ -689,9 +689,9 @@ div.product-tablist div.product-tablist-content.active {
   font-size: 18px;
   color: white;
   margin: 15px;
-  height: 125px !important; 
+  height: 125px !important;
   overflow: hidden;
-} 
+}
 .contact .product-info p{
   padding-top: 15px;
   line-height: 1.5;
@@ -703,3 +703,21 @@ div.product-tablist div.product-tablist-content.active {
 }
 
 /*End of height fix for react based div issues*/
+
+/* about info css */
+.about-info p {
+  font-size: 100%;
+}
+/* about info css */
+
+/* client carousel css */
+.client-carousel .slick-slide img {
+  height: 100px;
+}
+
+.client-carousel .slick-slide {
+  padding: 20px;
+}
+
+
+/* client carousel css */

@@ -27,6 +27,8 @@
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4",
+    "react-slick": "^0.14.11",
+    "slick-carousel": "^1.6.0",
     "style-loader": "^0.18.1",
     "underscore": "^1.8.3",
     "url-loader": "^0.5.8",

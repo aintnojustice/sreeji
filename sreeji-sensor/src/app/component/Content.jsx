@@ -125,7 +125,6 @@ export default class Content extends Component {
           <div id="contact" className="main-div">
               <ContactUs />
           </div>
-          <div id="our_client"><p>test</p></div>
       </div>
       <ProductModal
         attrs={{show:this.state.showModal,onHide:this.onCloseModal}}

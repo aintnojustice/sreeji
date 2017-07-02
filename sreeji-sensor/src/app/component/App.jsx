@@ -70,8 +70,7 @@ class App extends Component {
        {href:"introduction",name:"Introduction"},
        {href:"product",name:"Products"},
        {href:"about_us",name:"About Sreeji"},
-       {href:"contact",name:"Contact Us"},
-       {href:"our_client",name:"Our Clients"},
+       {href:"contact",name:"Contact Us"}
      ];
       return (
          <div>
