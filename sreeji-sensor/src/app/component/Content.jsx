@@ -76,7 +76,7 @@ export default class Content extends Component {
                           <h2>Temperature</h2>
                           <p>
                             Our temperature Products include RTD’s thermocouple switches ranges from 200 to 1700 C°.
-                            Mechanical instruments are inert filled with mercury, Gas & also Bi-merallic covering the scale range from 50 ... 600 C°.
+                            Mechanical instruments are inert filled with mercury, Gas & also Bi-merallic covering the scale range...
                           </p>
                           <a  data-header="Temperature" className="modal__trigger" onClick={this.showProductInfo}>Read More</a>
                         </div>
@@ -92,7 +92,7 @@ export default class Content extends Component {
                         <div className="product-info">
                           <h2>Flow</h2>
                           <p>
-                            Shreeji is will esteemed organization that is dedicately involved in manufacturing & supplying precision Flow measurement solution.
+                            Shreeji is an esteemed organization that is dedicately involved in manufacturing & supplying precision Flow measurement solution.
                           </p>
                           <a data-header="Flow" className="modal__trigger" onClick={this.showProductInfo}>Read More</a>
                         </div>

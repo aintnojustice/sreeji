@@ -66,13 +66,31 @@ body {
     height: 100%;
     background: white;
     padding-top: 3.25em;
-    font-family: 'Bitter', serif;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 768px){
+  #introduction{
+    height: 500px;
+  }
+  #product,#contact{
+    height: 1500px;
+    overflow-y: scroll;
+  }
+  #about_us{
+    height: 1000px;
+    overflow-y: scroll;
+  }
+  .navbar-nav{
+    margin-bottom:-7px;
+  }
 }
 
 #wrap {
     width: 500%;
-    overflow: hidden;
+    overflow:hidden;
     clear: both;
     height: 100%;
 }
@@ -121,6 +139,7 @@ p {
     color: #ffffff;
     height: 3.25em;
     line-height: 3.25em;
+    z-index: 1000;
 }
 
 .scrollitem {
@@ -178,7 +197,7 @@ p {
 }
 
 #introduction {
-    background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(./images/photo11.jpg);
+    background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(./images/splash1.jpg);
 }
 
 #product {
@@ -236,6 +255,7 @@ p {
 
 .product-info h2 {
     margin: 0;
+    font-family: 'Bitter', serif;
 }
 
 .product-info .link {
@@ -719,5 +739,37 @@ div.product-tablist div.product-tablist-content.active {
   padding: 20px;
 }
 
+.client-carousel{
+  /*background-color: rgba(255, 255, 255, 0.16);*/
+  text-align: center;
+}
+
+.carousel-div img{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 5px;
+}
 
 /* client carousel css */
+
+
+h2{
+    font-family: 'Bitter', serif;
+    text-align: center;
+}
+
+.about-info p{
+  font-size: 18px;
+  margin: 10px;
+}
+
+.about-info br{
+  margin:5px;
+}
+
+.modal-header .close {
+    color: #ca5559;
+    margin-top: -2px;
+    font-size: 26px;
+}
