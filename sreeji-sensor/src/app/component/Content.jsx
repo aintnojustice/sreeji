@@ -35,6 +35,9 @@ export default class Content extends Component {
           <div id="introduction" className="main-div max-height">
             <div className="center-box">
               <div className="centered">
+                <div style={{"fontSize": "100px"}}>
+                <span className="icon-monogram"></span>
+              </div>
                 <h1 className="brand-text">Shreeji Sensors</h1>
                 <p className="brand-info">
                   We provide focused solutions coupled with established safety precautions.
