@@ -1,0 +1,813 @@
+/*Styles Copyright Rahul Kale  & Nikunj Pansuriya*/
+
+
+/*Basic Overrides*/
+
+.m-t-xs {
+    margin-top: 5px;
+}
+
+.m-b-xs {
+    margin-bottom: 5px;
+}
+
+.m-l-xs {
+    margin-left: 5px;
+}
+
+.m-r-xs {
+    margin-right: 5px;
+}
+
+.m-t-sm {
+    margin-top: 10px;
+}
+
+.m-b-sm {
+    margin-bottom: 10px;
+}
+
+.m-l-sm {
+    margin-left: 10px;
+}
+
+.m-r-sm {
+    margin-right: 10px;
+}
+.m-t-md{
+  margin-top: 15px;
+}
+.m-b-md{
+  margin-bottom: 15px;
+}
+.m-l-md{
+  margin-left: 15px;
+}
+.m-r-md{
+  margin-right: 15px;
+}
+
+/*End of Basic Overrides*/
+
+
+/*End of Fixed styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    background: white;
+    padding-top: 3.25em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 768px){
+  #introduction{
+    height: 500px;
+  }
+  #product,#contact{
+    height: 1500px;
+    overflow-y: scroll;
+  }
+  #about_us{
+    height: 1000px;
+    overflow-y: scroll;
+  }
+  .navbar-nav{
+    margin-bottom:-7px;
+  }
+}
+
+#wrap {
+    width: 500%;
+    overflow:hidden;
+    clear: both;
+    height: 100%;
+}
+
+#introduction,
+#product,
+#about_us,
+#our_client,
+#contact {
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+
+ul {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    top: 1px;
+    line-height: 40px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+p {
+    margin: 50px;
+    font-size: 200%;
+}
+
+
+/*End of Fixed styles*/
+
+
+/*Custom Styles*/
+
+.main-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #cb565a;
+    color: #ffffff;
+    height: 3.25em;
+    line-height: 3.25em;
+    z-index: 1000;
+}
+
+.scrollitem {
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    display: inline-block;
+    border: 0;
+    line-height: 3em;
+    border-radius: 4px;
+    padding: 3px 25px;
+    font-family: "Bitter", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-size: 11px;
+    outline: 0;
+    text-decoration: none !important;
+    color: white;
+}
+
+.scrollitem:focus {
+    border-color: white;
+    color: white;
+    outline-color: white;
+}
+
+.scrollitem:hover,
+.scrollitem.active {
+    background-color: #ffffff;
+    color: #cb565a;
+}
+
+.brand-text {
+    font-size: 50px;
+    font-family: 'Galada', cursive;
+}
+
+.brand-info {
+    font-size: 150%;
+}
+
+.main-div {
+    background-size: auto, cover;
+    background-position: 0% 0%, 0% 50%;
+    background-repeat: repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    color: white;
+    padding: 20px;
+}
+
+.max-height{
+  height: 100%;
+}
+
+#introduction {
+    background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(../images/splash1.jpg);
+}
+
+#product {
+    background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(../images/photo2.jpg);
+}
+
+#about_us {
+    background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(../images/photo3.jpg);
+}
+
+#our_client {
+    background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(../images/photo1.jpg);
+}
+
+#contact {
+    background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(../images/photo5.jpg);
+}
+
+.center-box {
+    height: 100%;
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+.centered {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn.btn-white:hover {
+    background-color: white;
+    color: grey;
+}
+
+.btn.btn-white {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+.main-div .panel {
+    background-color: rgba(255, 255, 255, 0.16);
+    border-color: transparent;
+    padding: 10px;
+    box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.16), 0 2px 10px 0 rgba(255, 255, 255, 0.12);
+}
+
+.product-info p {
+    font-size: 15px;
+    margin: 15px;
+    height: 125px;
+    overflow: hidden;
+}
+
+.product-info h2 {
+    margin: 0;
+    font-family: 'Bitter', serif;
+}
+
+.product-info .link {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: underline;
+}
+
+.modal__trigger {
+  position: relative;
+  display: inline-block;
+  padding: 1.2rem 2.4rem;
+  color: rgba(0,0,0,0.7);
+  line-height: 1;
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+  background: transparent;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.modal__trigger:hover {
+  background: #fff;
+  color: grey;
+  text-decoration: none;
+}
+
+
+
+
+/*Products Hover effect*/
+
+.product-box .product-icon,
+.product-box .product-info,
+.product-box:hover .product-icon,
+.product-box:hover .product-info {
+    text-align: center;
+    transition-duration: .3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.7, 1, .7, 1);
+}
+
+
+/*
+.product-box:hover .product-icon {
+    opacity: 0;
+    -webkit-transform: translate3d(0,-100%,0);
+    -moz-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+}
+
+.product-box:hover .product-info{
+  -webkit-transform: translate3d(0,-30%,0);
+    -moz-transform: translate3d(0,-30%,0);
+    transform: translate3d(0,-30%,0);
+}*/
+
+
+/*Products Hover effect*/
+
+
+/*Custom Modals*/
+
+
+/**
+ * Material Modal CSS
+ */
+
+
+/*
+
+.modal {
+  will-change: visibility, opacity;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transition-delay: $modal-delay;
+          transition-delay: $modal-delay;
+}
+.modal--active {
+  visibility: visible;
+  opacity: 1;
+}
+.modal--align-top {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.modal__bg {
+  background: transparent;
+}
+.modal__dialog {
+  padding: 1.2rem;
+}
+.modal__content {
+  will-change: transform, opacity;
+  position: relative;
+  padding: 2.4rem;
+  background: #fff;
+  background-clip: padding-box;
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.25);
+  opacity: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.25s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.modal__content--active {
+  opacity: 1;
+}
+.modal__close {
+  z-index: 1100;
+  cursor: pointer;
+}
+.modal__trigger {
+  position: relative;
+  display: inline-block;
+  padding: 1.2rem 2.4rem;
+  color: rgba(0,0,0,0.7);
+  line-height: 1;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  background: transparent;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.modal__trigger--active {
+  z-index: 10;
+}
+.modal__trigger:hover {
+  background: #fff;
+  color: grey;
+  text-decoration: none;
+}
+#modal__temp {
+  will-change: transform, opacity;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  background: transparent;
+  -webkit-transform: none;
+          transform: none;
+  opacity: 1;
+  -webkit-transition: opacity 0.1s ease-out, -webkit-transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: opacity 0.1s ease-out, -webkit-transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: opacity 0.1s ease-out, transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: opacity 0.1s ease-out, transform 0.5s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+/**
+ * Demo specific CSS
+ */
+
+img {
+    max-width: 100%;
+}
+
+.demo-btns header {
+    padding: 7vh 10vw;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.demo-btns header h1 {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 300;
+}
+
+.demo-btns .info {
+    background: #f44336;
+    padding: 3vh 10vw;
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+}
+
+.demo-btns p {
+    text-align: center;
+    color: #fff;
+}
+
+.demo-btns .link {
+    font-size: 20px;
+}
+
+.demo-btns .modal__trigger {
+    margin-right: 3px;
+}
+
+@media (max-width: 640px) {
+    .demo-btns .modal__trigger {
+        margin-bottom: 0.8rem;
+    }
+}
+
+.demo-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1.2rem;
+    padding: 0.6rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.demo-close svg {
+    width: 24px;
+    fill: #fff;
+    pointer-events: none;
+    vertical-align: top;
+}
+
+.demo-close:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+    position: fixed;
+    bottom: 3vh;
+    right: 3vw;
+    z-index: 2;
+}
+
+.logo img {
+    width: 45px;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.logo img:hover {
+    -webkit-transform: rotate(180deg) scale(1.1);
+    transform: rotate(180deg) scale(1.1);
+}
+
+
+/*Product list in modal*/
+
+div.product-tablist-menu {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+div.product-tablist-menu div.list-group {
+    margin-bottom: 0;
+}
+
+div.product-tablist-menu div.list-group>a {
+    margin-bottom: 0;
+}
+
+div.product-tablist-menu div.list-group>a .glyphicon,
+div.product-tablist-menu div.list-group>a .fa {
+    color: #cb565a;
+}
+
+div.product-tablist-menu div.list-group>a:first-child {
+    border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+}
+
+div.product-tablist-menu div.list-group>a:last-child {
+    border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+}
+
+div.product-tablist-menu div.list-group>a.active,
+div.product-tablist-menu div.list-group>a.active .glyphicon,
+div.product-tablist-menu div.list-group>a.active .fa {
+    background-color: #cb565a;
+    background-image: #cb565a;
+    color: #ffffff;
+}
+
+div.product-tablist-menu div.list-group>a.active:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -13px;
+    border-left: 0;
+    border-bottom: 13px solid transparent;
+    border-top: 13px solid transparent;
+    border-left: 10px solid #cb565a;
+}
+
+div.product-tablist-content {
+    display: none;
+    background-color: #ffffff;
+    /* border: 1px solid #eeeeee; */
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+div.product-tablist div.product-tablist-content.active {
+    display: block;
+}
+
+.product-tablist-container .list-group-item.active,
+.product-tablist-container .list-group-item.active:focus,
+.product-tablist-container .list-group-item.active:hover {
+    border-color: #cb565a;
+}
+
+
+/*End of custom Modals*/
+
+
+/* contact us css */
+
+.custom-icon {
+    font-size: 45px;
+    background: #666;
+    background: transparent;
+    padding: 30px;
+    -webkit-border-radius: 1100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    border: 6px solid #fff;
+    color: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.custom-icon:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.fix-editor {
+    display: none;
+}
+
+.icon-wrapper {
+    display: inline-block;
+}
+
+.social-icon .icon-parent {
+    display: inline-block;
+    margin: 4px;
+}
+
+.social-icon span {
+    color: #34495e;
+    border: 2px solid transparent;
+    border-radius: 0%;
+    padding: 1.5em;
+    position: relative;
+    background: transparent;
+}
+
+.social-icon span {
+    cursor: pointer;
+    display: inline-block;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    @include transition(all 0.15s ease)
+}
+
+.social-icon span:nth-child(1) {
+    color: #db4a39;
+    border-bottom-color: #db4a39;
+}
+
+.social-icon span:nth-child(2) {
+    color: #157f9d;
+    border-bottom-color: #157f9d;
+}
+
+.social-icon span:nth-child(3) {
+    color: #3b5998;
+    border-bottom-color: #3b5998;
+}
+
+.social-icon span:hover {
+    top: -2px;
+    border-radius: 50%;
+}
+
+.icon-parent a {
+  color: #fff;
+}
+
+/* contact us css end */
+
+
+/*Height fix for react based div issues*/
+
+#app > [data-reactroot] { height: 100% } {
+  height: 100%;
+}
+
+.contact .product-info p,
+.product-info .icon-list{
+  font-size: 18px;
+  color: white;
+  margin: 15px;
+  height: 125px !important;
+  overflow: hidden;
+}
+.contact .product-info p{
+  padding-top: 15px;
+  line-height: 1.5;
+}
+
+.product-info .social-icon span{
+   color: white;
+  border-bottom-color: white;
+}
+
+/*End of height fix for react based div issues*/
+
+/* about info css */
+.about-info p {
+  font-size: 100%;
+}
+/* about info css */
+
+/* client carousel css */
+.client-carousel .slick-slide img {
+  height: 100px;
+}
+
+.client-carousel .slick-slide {
+  padding: 20px;
+}
+
+.client-carousel{
+  /*background-color: rgba(255, 255, 255, 0.16);*/
+  text-align: center;
+}
+
+.carousel-div img{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 5px;
+}
+
+/* client carousel css */
+
+
+h2{
+    font-family: 'Bitter', serif;
+    text-align: center;
+}
+
+.about-info p{
+  font-size: 18px;
+  margin: 10px;
+}
+
+.about-info br{
+  margin:5px;
+}
+
+.modal-header .close {
+    color: #ca5559;
+    margin-top: -2px;
+    font-size: 26px;
+}
+
+@font-face {
+  font-family: 'Sreeji';
+  src:  url('fonts/Sreeji.eot?ejy0dl');
+  src:  url('fonts/Sreeji.eot?ejy0dl#iefix') format('embedded-opentype'),
+    url('fonts/Sreeji.ttf?ejy0dl') format('truetype'),
+    url('fonts/Sreeji.woff?ejy0dl') format('woff'),
+    url('fonts/Sreeji.svg?ejy0dl#Sreeji') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Sreeji' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-monogram:before {
+  content: "\e900";
+}
+
+.modal-image img {
+  width: 260px;
+  height: 280px;
+}

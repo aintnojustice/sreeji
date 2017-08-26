@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 
+import pressuregauge from "../../images/pressuregauge.jpg";
+import digitalPressure from "../../images/digitalpressuregauge.jpg";
+import pressureTransmitter from "../../images/pressureTransmitter.jpg";
+import magnehelicGauge from "../../images/magnehelicPressuregauge.jpg";
+
 
 export default class PressureInfo extends Component {
 
@@ -25,19 +30,13 @@ export default class PressureInfo extends Component {
               Pressure Gauge
             </a>
             <a data-id="1" onClick={this.onTabchange} className={"list-group-item text-center"+(this.state.activeTab==1?" active":"")}>
-              Differential pressure gauge
-            </a>
-            <a data-id="2" onClick={this.onTabchange} className={"list-group-item text-center"+(this.state.activeTab==2?" active":"")}>
               Digital pressure gauge
             </a>
-            <a data-id="3" onClick={this.onTabchange} className={"list-group-item text-center"+(this.state.activeTab==3 ?" active":"")}>
+            <a data-id="2" onClick={this.onTabchange} className={"list-group-item text-center"+(this.state.activeTab==2 ?" active":"")}>
               Pressure Transmitter
             </a>
-            <a data-id="4" onClick={this.onTabchange} className={"list-group-item text-center"+(this.state.activeTab==4 ?" active":"")}>
+            <a data-id="3" onClick={this.onTabchange} className={"list-group-item text-center"+(this.state.activeTab==3 ?" active":"")}>
               Magnehelic Gauge
-            </a>
-            <a data-id="5" onClick={this.onTabchange} className={"list-group-item text-center"+(this.state.activeTab==5 ?" active":"")}>
-              Saiphon
             </a>
           </div>
         </div>
@@ -52,8 +51,8 @@ export default class PressureInfo extends Component {
                 </span>
               </div>
               <div className="col-sm-12 col-md-6">
-                <div>
-                  <img src="app/style/images/pressuregauge.gif"></img>
+                <div className="modal-image">
+                  <img src={pressuregauge}></img>
                 </div>
               </div>
             </div>
@@ -61,29 +60,56 @@ export default class PressureInfo extends Component {
 
 
           <div className={"product-tablist-content"+(this.state.activeTab==1 ? " active" : "")}>
-            <center>
-              lag
-            </center>
+            <div className="row">
+              <div className="col-sm-12 col-md-6">
+                <h4>Digital pressure gauge</h4>
+                <span>
+                  Digital pressure gauge enables the measurement and display of pressure values in a single instrument.
+                </span>
+              </div>
+              <div className="col-sm-12 col-md-6">
+                <div className="modal-image">
+                  <img src={digitalPressure}></img>
+                </div>
+              </div>
+            </div>
           </div>
 
 
           <div className={"product-tablist-content"+(this.state.activeTab==2 ? " active" : "")}>
-            <center>
-              ngla
-            </center>
+            <div className="row">
+              <div className="col-sm-12 col-md-6">
+                <h4>Pressure Transmitter</h4>
+                <span>
+                  A pressure transmitter or pressure sensor is a device that measures pressure in a liquid, fluid, or gas. Pressure transmitters are commonly used to measure pressure inside of industrial machinery in order to alert the user before a catastrophe occurs.
+                </span>
+              </div>
+              <div className="col-sm-12 col-md-6">
+                <div className="modal-image">
+                  <img src={pressureTransmitter}></img>
+                </div>
+              </div>
+            </div>
           </div>
+
           <div className={"product-tablist-content"+(this.state.activeTab==3 ? " active" : "")}>
-            <center>
-              chan
-            </center>
+            <div className="row">
+              <div className="col-sm-12 col-md-6">
+                <h4>Magnehelic Gauge</h4>
+                <span>
+                  The Magnehelic is the industry standard to measure fan and blower pressures, filter resistance, air velocity, furnace draft, pressure drop across orifice plates, liquid levels with bubbler systems and pressures in fluid am-plifier or fluidic systems.
+                </span>
+              </div>
+              <div className="col-sm-12 col-md-6">
+                <div className="modal-image">
+                  <img src={magnehelicGauge}></img>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className={"product-tablist-content"+(this.state.activeTab==4 ? " active" : "")}>
-            <center>
-              yo
-            </center>
-          </div>
+
         </div>
       </div>
     )
   }
-}
+  }

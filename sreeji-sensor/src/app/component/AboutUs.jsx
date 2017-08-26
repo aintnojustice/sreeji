@@ -22,10 +22,10 @@ export default class AboutUs extends Component {
               <p>
                 SHREEJI is a world market Leader in pressure, temperature, humidity, flow, and level measurement & calibration technology since a decade. With an established reputation for manufacturing high precision & reliable instruments, we offer our customers an innovative and tailor made comprehensive process solutions. Our continuous focus on Quality adoption is our vision which keeps us going long way to provide quality instruments and best customer service experience to our clients.
                 Our team of highly experienced engineers and sales professionals provides best in class solutions for all of their needs.
-                <br/>
-                <div className="m-t-md"></div>
+              </p>
+              <p className="m-t-sm">
                 SHREEJI operates on the policy driven towards customer’s satisfaction and building customer relationship. The same is proven by a wide customer base of more than 1000 plus customers across within its inception.
-                </p>
+              </p>
               </div>
             </div>
           </div>

@@ -17,7 +17,7 @@ return(
                   <div className="product-info">
                      <h2>Address</h2>
                      <p>
-                        304, B-12, Hari Om CHSL, <br/> C.S. Road, Ananad Nagar,<br/>Dahisar (E), Mumbai - 400 068.
+                        304, B-12, Suraj Hari Om , <br/> C.S. Road, Ananad Nagar,<br/>Dahisar (E), Mumbai - 400 068.
                      </p>
                   </div>
                </div>
@@ -33,6 +33,8 @@ return(
                      <h2>Phone</h2>
                      <p>
                      <i className="fa fa-whatsapp" aria-hidden="true"></i> +91 98925 92829
+                     <br />
+                     <i className="fa fa-whatsapp" aria-hidden="true"></i> +91 9727273767
                      <br />
                      <i className="fa fa-whatsapp" aria-hidden="true"></i> +91 90224 41179
                      </p>
@@ -69,19 +71,19 @@ return(
                      <div className="row social-icon text-center">
                         <div className="icon-parent">
                            <span>
-                           <i className="fa fa-google-plus" aria-hidden="true"></i>
+                           <a href="https://plus.google.com/u/0/106148669374832113936"><i className="fa fa-google-plus" aria-hidden="true"></i></a>
                            </span>
                         </div>
                         <div className="icon-parent">
                            <span>
-                           <i className="fa fa-linkedin" aria-hidden="true"></i>
+                           <a href="https://www.linkedin.com/in/chirag-patel-a9586593/"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
                            </span>
                         </div>
-                        <div className="icon-parent">
+                      {/*<div className="icon-parent">
                            <span>
                            <i className="fa fa-facebook" aria-hidden="true"></i>
                            </span>
-                        </div>
+                        </div>*/}
                      </div>
                      </div>
                   </div>
