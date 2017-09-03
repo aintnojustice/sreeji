@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 
-import rtdTemp from "../../images/RTD.png";
+import rtdTemp from "../../images/RTD.jpg";
 import rtdsensor from "../../images/RTD2.jpg";
 import tempTransmitter from "../../images/temtransmitter.jpg";
-import mercuryThermometer from "../../images/mercurythermometer.png";
-import biMetalicTemp from "../../images/bimetalicthermometer.png";
+import mercuryThermometer from "../../images/mercurythermometer.jpg";
+import biMetalicTemp from "../../images/bimetalicthermometer.jpg";
 import thermowellTemp from "../../images/thermowell.jpg";
 
 export default class TemperatureInfo extends Component {

@@ -196,10 +196,15 @@ p {
   height: 100%;
 }
 
-#introduction {
+#introduction,
+#product,
+#about_us,
+#our_client,
+#contact
+ {
     background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(../images/splash1.jpg);
 }
-
+/*
 #product {
     background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(../images/photo2.jpg);
 }
@@ -214,7 +219,7 @@ p {
 
 #contact {
     background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(../images/photo5.jpg);
-}
+}*/
 
 .center-box {
     height: 100%;
@@ -807,7 +812,10 @@ h2{
   content: "\e900";
 }
 
+.modal-image {
+    text-align: center;
+}
+
 .modal-image img {
-  width: 260px;
-  height: 280px;
+  max-height:250px;
 }

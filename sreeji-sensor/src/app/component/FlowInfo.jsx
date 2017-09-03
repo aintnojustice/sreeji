@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import electromagneticFlow from "../../images/electromagneticflow.jpg";
 import glasstubeflow from "../../images/glasstubeflow.jpg";
 import glasstubeflow2 from "../../images/glasstubeflow2.jpg";
-import acrylicFlow from "../../images/acrylic.png";
+import acrylicFlow from "../../images/acrylic.jpg";
 
 export default class FlowInfo extends Component {
 
